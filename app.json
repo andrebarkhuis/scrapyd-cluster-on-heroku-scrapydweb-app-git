@@ -4,6 +4,7 @@
     "repository": "https://github.com/my8100/scrapyd-cluster-on-heroku",
     "logo": "https://raw.githubusercontent.com/my8100/files/master/scrapydweb/icons/spiderman.png",
     "keywords": ["scrapyd", "cluster", "heroku", "scrapy", "scrapyweb", "python", "web-crawling", "web-scraping"],
+    "stack": "heroku-18",
     "env": {
         "SCRAPYD_SERVER_1": {
             "description": "You can add more Scrapyd servers in the web UI of Heroku after the app is bulit, and the key of the environment variable should be like SCRAPYD_SERVER_n (n for a unique integer).",

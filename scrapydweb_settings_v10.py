@@ -30,7 +30,7 @@ if os.environ.get('ENABLE_AUTH', 'False') == 'True':
 USERNAME = ''
 PASSWORD = ''
 USERNAME = os.environ.get('USERNAME', 'admin')
-PASSWORD = os.environ.get('PASSWORD', 'scrapydweb')
+PASSWORD = os.environ.get('PASSWORD', 'vGpbh7MR7Zrc2PHy')
 
 
 # Make sure that [Scrapyd](https://github.com/scrapy/scrapyd) has been installed
@@ -138,7 +138,7 @@ JOBS_SNAPSHOT_INTERVAL = 300
 ############################## Run Spider #####################################
 # The default is False, set it to True to automatically
 # expand the 'settings & arguments' section in the Run Spider page.
-SCHEDULE_EXPAND_SETTINGS_ARGUMENTS = False
+SCHEDULE_EXPAND_SETTINGS_ARGUMENTS = True
 
 # The default is 'Mozilla/5.0', set it a non-empty string to customize the default value of `custom`
 # in the drop-down list of `USER_AGENT`.
@@ -152,7 +152,7 @@ SCHEDULE_USER_AGENT = None
 SCHEDULE_ROBOTSTXT_OBEY = None
 
 # The default is None, set it to True or False to customize the default value of `COOKIES_ENABLED`.
-SCHEDULE_COOKIES_ENABLED = None
+SCHEDULE_COOKIES_ENABLED = True
 
 # The default is None, set it to a non-negative integer to customize the default value of `CONCURRENT_REQUESTS`.
 SCHEDULE_CONCURRENT_REQUESTS = None
@@ -163,7 +163,7 @@ SCHEDULE_DOWNLOAD_DELAY = None
 # The default is "-d setting=CLOSESPIDER_TIMEOUT=60\r\n-d setting=CLOSESPIDER_PAGECOUNT=10\r\n-d arg1=val1",
 # set it to '' or any non-empty string to customize the default value of `additional`.
 # Use '\r\n' as the line separator.
-SCHEDULE_ADDITIONAL = "-d setting=CLOSESPIDER_TIMEOUT=60\r\n-d setting=CLOSESPIDER_PAGECOUNT=10\r\n-d arg1=val1"
+SCHEDULE_ADDITIONAL = "-d setting=MONGO_DATABASE=dfc-web-scrapy\r\n-d setting=MONGO_URI=mongodb+srv://web-scrapy:mVmA9dx4eJEK3vwn@web-scrapy-mfbum.azure.mongodb.net/test?retryWrites=true&w=majority"
 
 
 ############################## Page Display ###################################
