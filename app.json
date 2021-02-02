@@ -8,7 +8,22 @@
     "env": {
         "SCRAPYD_SERVER_1": {
             "description": "You can add more Scrapyd servers in the web UI of Heroku after the app is bulit, and the key of the environment variable should be like SCRAPYD_SERVER_n (n for a unique integer).",
-            "value": "username:password@dfc-scrapyd.herokuapp.com:80",
+            "value": "username:password@dfc-scrapyd-gamespider.herokuapp.com:80",
+            "required": true
+        },
+        "SCRAPYD_SERVER_2": {
+            "description": "You can add more Scrapyd servers in the web UI of Heroku after the app is bulit, and the key of the environment variable should be like SCRAPYD_SERVER_n (n for a unique integer).",
+            "value": "username:password@dfc-scrapyd-makrospider.herokuapp.com:80",
+            "required": true
+        },
+        "SCRAPYD_SERVER_3": {
+            "description": "You can add more Scrapyd servers in the web UI of Heroku after the app is bulit, and the key of the environment variable should be like SCRAPYD_SERVER_n (n for a unique integer).",
+            "value": "username:password@dfc-scrapyd-picknpayspider.herokuapp.com:80",
+            "required": true
+        },
+        "SCRAPYD_SERVER_4": {
+            "description": "You can add more Scrapyd servers in the web UI of Heroku after the app is bulit, and the key of the environment variable should be like SCRAPYD_SERVER_n (n for a unique integer).",
+            "value": "username:password@dfc-scrapyd-takealotspider.herokuapp.com:80",
             "required": true
         },
         "ENABLE_AUTH": {

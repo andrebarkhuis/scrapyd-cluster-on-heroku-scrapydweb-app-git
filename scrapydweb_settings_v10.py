@@ -163,7 +163,7 @@ SCHEDULE_DOWNLOAD_DELAY = None
 # The default is "-d setting=CLOSESPIDER_TIMEOUT=60\r\n-d setting=CLOSESPIDER_PAGECOUNT=10\r\n-d arg1=val1",
 # set it to '' or any non-empty string to customize the default value of `additional`.
 # Use '\r\n' as the line separator.
-SCHEDULE_ADDITIONAL = "-d setting=MONGO_DATABASE=dfc-web-scrapy\r\n-d setting=MONGO_URI=mongodb+srv://web-scrapy:mVmA9dx4eJEK3vwn@web-scrapy-mfbum.azure.mongodb.net/test?retryWrites=true&w=majority"
+SCHEDULE_ADDITIONAL = ""
 
 
 ############################## Page Display ###################################
